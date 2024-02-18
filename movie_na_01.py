@@ -7,7 +7,7 @@ import time
 
 # OpenAI APIキーの入力
 st.sidebar.title("Settings")
-api_key = st.sidebar.text_input("OpenAI API Key")
+api_key = st.sidebar.text_input("OpenAI API Keyを入力してください")
 openai.api_key = api_key
 
 
@@ -49,7 +49,7 @@ def get_text_from_video(file):
     params = {
     "model": "gpt-4-vision-preview",
     "messages": PROMPT_MESSAGES,
-    "max_tokens": 500,
+    "max_tokens": 1500,
 }
     
     response = openai.chat.completions.create(**params)
