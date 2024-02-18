@@ -49,7 +49,7 @@ def get_text_from_video(file):
     params = {
     "model": "gpt-4-vision-preview",
     "messages": PROMPT_MESSAGES,
-    "max_tokens": 1500,
+    "max_tokens": 2048,
 }
     
     response = openai.chat.completions.create(**params)
