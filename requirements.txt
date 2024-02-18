@@ -1,7 +1,7 @@
 openai
 langchain
 streamlit
-opencv
+opencv-python
 openpyxl
 numpy
 matplotlib
