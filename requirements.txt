@@ -1,7 +1,7 @@
 openai
 langchain
 streamlit
-opencv-python
+opencv-python==4.5.1.48
 openpyxl
 numpy
 matplotlib
